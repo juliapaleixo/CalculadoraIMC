@@ -1,0 +1,29 @@
+## Explicação do código em phyton da Calculadora IMC
+
+
+
+O código da Calculadora IMC tem como objetivo calcular o Índice de Massa Corporal (IMC) de uma pessoa com base no peso e altura fornecidos. 
+
+A fórmula utilizada para calcular o IMC é: 
+
+IMC = peso / (altura ** 2). #Cálculo IMC
+
+O programa solicita ao usuário que informe o peso (em quilos) e a altura (em metros). #Inputs
+
+Em seguida, calcula o IMC e fornece orientações sobre a faixa do IMC, com base nas categorias da OMS: 
+
+1. abaixo do peso (IMC < 18.5)
+2. peso ideal (IMC entre 18.5 e 24.9)
+3. sobrepeso (IMC entre 25 e 29.9)
+4. obesidade grau 1 (IMC entre 30 e 34.9) 
+5. obesidade grau 2 (IMC entre 35 e 39.9)  
+6. obesidade grau 3 (IMC > 40). 
+
+
+Além disso, o código calcula o peso mínimo e máximo necessários para atingir o peso ideal (IMC entre 18.5 e 24.9) e sugere quanto peso o usuário precisaria ganhar ou perder para atingir esse peso ideal. #Cálculo distancia para peso ideal
+
+O código utiliza uma estrutura condicional if-elif para classificar o IMC e fornecer uma recomendação com base nos cálculos realizados. Ao final, o programa exibe o valor do IMC, arredondado para duas casas decimais, e a recomendação correspondente. 
+
+A entrada dos dados é feita por meio da função input(), e os valores são convertidos para tipo float para permitir cálculos precisos. 
+
+O código é uma ferramenta simples para calcular o IMC e oferecer recomendações de saúde relacionadas ao peso.
